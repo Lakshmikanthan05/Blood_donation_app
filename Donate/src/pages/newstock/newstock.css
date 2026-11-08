@@ -1,0 +1,44 @@
+.stockcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .substockcon {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        min-width: 600px;
+
+        h2 {
+            color: red;
+        }
+        
+        
+
+        
+
+        td {
+            padding-bottom: 30px;
+        }
+                .accept {
+                    background-color: rgb(106, 224, 106);
+                    color: white;
+                    padding: 5px 10px;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+        
+        
+        
+                    &:hover {
+                        background-color: rgb(40, 131, 66);
+                    }
+        
+                }
+    }
+}

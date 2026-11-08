@@ -1,0 +1,107 @@
+.conta {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.section_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .head {
+        font-size: 40px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .head1 {
+        font-size: 60px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: red;
+    }
+
+    .sen {
+        margin: 10px;
+    }
+
+    .start {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: center;
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+    
+        &:hover {
+            box-shadow: 0 0 5px rgb(177, 50, 50);
+            text-shadow: 0 0 5px #ffffff, 0 0 20px white;
+        }
+    }
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    .num {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        padding: 20px;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0 0 5px rgb(137, 134, 134);
+        opacity: 0.9;
+
+        .n {
+            margin-bottom: 0px;
+            color: red;
+        }
+
+        p{
+            margin: 5px;
+
+        }
+    }
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+    h1 {
+        color: red;
+    }
+
+    .feed {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+
+
+        .sub1 {
+            margin: 30px;
+            background-color: #ffffff;
+            padding: 20px;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0 0 5px rgb(137, 134, 134);
+            opacity: 0.9;
+        }
+    }
+}

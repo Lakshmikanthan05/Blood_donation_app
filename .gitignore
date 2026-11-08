@@ -1,0 +1,5 @@
+node_modules/
+.env
+*.mov
+Donate/src/assets/video/background_video.mov
+Donate\src\assets\video\background_video_2.mp4
